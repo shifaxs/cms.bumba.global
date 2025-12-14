@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hackbay Hunt</title>
+<style>
+:root{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color-scheme: light}
+body{margin:0;padding:0;background:#0f172a;color:#e6eef8;display:flex;min-height:100vh;align-items:center;justify-content:center}
+.card{max-width:900px;margin:24px;padding:28px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+header{display:flex;align-items:center;gap:16px}
+.logo{width:56px;height:56px;border-radius:10px;background:#111827;display:grid;place-items:center;font-weight:700;font-size:18px}
+h1{margin:0;font-size:28px;letter-spacing:-0.5px}
+p.lead{margin:12px 0 20px;color:#b8c6dd}
+.actions{display:flex;gap:12px}
+a.btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+a.primary{background:#0ea5a1;color:#042f2e}
+a.ghost{border:1px solid rgba(255,255,255,0.06);color:#dbeafe}
+footer{margin-top:20px;font-size:13px;color:#94a3b8}
+pre{background:#071029;padding:12px;border-radius:8px;color:#bfe9e6;overflow:auto}
+@media (max-width:640px){.card{margin:12px;padding:18px}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<main class="card" role="main">
+<header>
+<div class="logo">HB</div>
+<div>
+<h1>Hackbay Hunt</h1>
+<p class="lead">A minimal HTML starter page for your hackathon, capture-the-flag or demo — ready to edit.</p>
+</div>
+</header>
+
+
+<section>
+<h2>Quick start</h2>
+<p>Copy this file to <code>index.html</code> and open it in your browser. Edit the heading, description and links below to make it yours.</p>
+
+
+<pre>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;
+&lt;title&gt;Hackbay Hunt&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hackbay Hunt&lt;/h1&gt;
+&lt;p&gt;Welcome — customise me!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+
+<div class="actions">
+<a class="btn primary" href="#" onclick="alert('This is a demo button — replace with a real link.')">Start Hunt</a>
+<a class="btn ghost" href="#" onclick="alert('Edit the file and refresh to change this page.')">How to edit</a>
+</div>
+
+
+<footer>
+Made with ♥ for <strong>Hackbay Hunt</strong>. Happy hacking!
+</footer>
+</section>
+</main>
+</body>
+</html>
